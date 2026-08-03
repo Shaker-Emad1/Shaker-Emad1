@@ -69,7 +69,7 @@ Production-ready E-Commerce platform built for a real business.
 
 **Tech**
 
-ASP.NET Core 10 • React • TypeScript • SQL Server • JWT • Clean Architecture • Docker
+ASP.NET Core 10  • TypeScript • SQL Server • JWT • Clean Architecture • Docker
 
 ---
 
