@@ -39,8 +39,6 @@ My primary focus is building enterprise software that is maintainable, secure, a
 ### Frontend
 
 - Angular 20
-- React
-- TypeScript
 - JavaScript
 - HTML5
 - CSS3
