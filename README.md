@@ -1,144 +1,61 @@
-<div align="center">
+# Shaker Emad Shaker
 
-# Hi, I'm Shaker Emad 👋
+**Backend .NET Developer — Cairo, Egypt**
 
-### Full-Stack .NET Developer
+Computer Science graduate (EELU, 2024), trained on .NET at DEPI and on AI at NTI. Currently freelancing: backend work for PaySky and full-stack e-commerce delivery. English B2.
 
-Building scalable enterprise applications with ASP.NET Core, Angular, React, SQL Server, and Clean Architecture.
+[![Email](https://img.shields.io/badge/Email-anakerolos%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:anakerolos@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-shaker--emad1-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaker-emad1)
+[![Portfolio](https://img.shields.io/badge/Portfolio-website-0d9488?logo=googlechrome&logoColor=white)](https://files.instinct.com/ljl3nnf00cem-shaker-emad-backend-net-developer)
 
-[![GitHub followers](https://img.shields.io/github/followers/Shaker-Emad1?style=for-the-badge)](https://github.com/Shaker-Emad1)
-[![GitHub Stars](https://img.shields.io/github/stars/Shaker-Emad1?affiliations=OWNER&style=for-the-badge)](https://github.com/Shaker-Emad1)
+## Tech stack
 
-</div>
+![C#](https://img.shields.io/badge/C%23-512BD4?logo=dotnet&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET%2010-512BD4?logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?logo=dotnet&logoColor=white)
+![EF Core](https://img.shields.io/badge/EF%20Core-512BD4?logo=dotnet&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular%2020-DD0031?logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white)
+![SignalR](https://img.shields.io/badge/SignalR-512BD4?logo=dotnet&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 
----
+## Flagship projects
 
-# 🚀 About Me
+Enterprise-style systems with full backends (ASP.NET Core 10, EF Core, PostgreSQL), Angular 20 clients with a dark/light design system and dashboards, Docker, CI, tests, and an honest Built vs Roadmap split in every README.
 
-I'm a Full-Stack .NET Developer passionate about building modern, scalable, and production-ready applications.
+| Project | What it is |
+| --- | --- |
+| [pharmadesk](https://github.com/Shaker-Emad1/pharmadesk) | Multi-tenant pharmacy management SaaS — batch/FEFO inventory, POS invoicing, low-stock & expiry reports |
+| [shoppos-cloud](https://github.com/Shaker-Emad1/shoppos-cloud) | Multi-tenant cloud point of sale — barcode POS, discounts, refunds, Z-report, sales analytics |
+| [medicare-hms](https://github.com/Shaker-Emad1/medicare-hms) | Multi-tenant hospital & clinic management — patients, appointments, visits & prescriptions, billing |
+| [suiteerp](https://github.com/Shaker-Emad1/suiteerp) | Multi-tenant ERP — warehouses & stock movements, sales orders, purchasing, AR/AP, payments |
+| [edusuite](https://github.com/Shaker-Emad1/edusuite) | Multi-tenant school management — students, classes, grades & report cards, attendance, fees |
+| [itdesk](https://github.com/Shaker-Emad1/itdesk) | Multi-tenant IT helpdesk — SLA-tracked tickets, assignment, comments, knowledge base |
+| [peoplesuite](https://github.com/Shaker-Emad1/peoplesuite) | Multi-tenant HR & payroll — employees, leave approvals, attendance, payroll runs |
+| [flowboard](https://github.com/Shaker-Emad1/flowboard) | Real-time team Kanban — SignalR live sync, drag-and-drop, multi-user boards |
+| [payflow-api](https://github.com/Shaker-Emad1/payflow-api) | Payment processing API — idempotent payments, HMAC-signed webhooks, Hangfire jobs |
+| [ledger-service](https://github.com/Shaker-Emad1/ledger-service) | Double-entry bookkeeping API — balanced journals, transfers, financial-statement math |
+| [order-events](https://github.com/Shaker-Emad1/order-events) | Event-driven order processing — transactional outbox, RabbitMQ, idempotent consumer |
+| [ai-ticket-triage](https://github.com/Shaker-Emad1/ai-ticket-triage) | AI support-ticket triage — LLM classification, priority, summaries, draft replies |
 
-I enjoy designing clean architectures, developing RESTful APIs, and creating responsive web applications using modern technologies.
+## Earlier projects
 
-My primary focus is building enterprise software that is maintainable, secure, and easy to scale.
+| Project | What it is |
+| --- | --- |
+| [RecruitPro](https://github.com/Shaker-Emad1/RecruitPro) | Recruitment management system — ASP.NET Core, Angular 20, Clean Architecture, JWT, Docker |
+| [market-pro](https://github.com/Shaker-Emad1/market-pro) | POS & inventory management — ASP.NET Core, Angular 20, EF Core, SQL Server, Docker |
+| [CircuitBay](https://github.com/Shaker-Emad1/CircuitBay) | E-commerce backend API — Clean Architecture, EF Core, SQL Server, Redis, Hangfire |
+| [ecommerce-Store](https://github.com/Shaker-Emad1/ecommerce-Store) | Full-stack e-commerce platform — ASP.NET Core, React, TypeScript, SQL Server, Docker |
 
----
+## What the backend work shows
 
-# 💻 Tech Stack
+- **Architecture:** multi-tenant SaaS with EF Core global query filters and JWT tenant claims; event-driven services with the transactional outbox; double-entry accounting invariants
+- **Data integrity:** transactional writes, idempotency keys, unique constraints, FEFO stock deduction, double-booking and overlap detection
+- **Delivery:** Docker one-liner in every repo, GitHub Actions CI, EF Core migrations, Swagger, MIT license, conventional commits
+- **Honesty:** every README separates what is built and working from what is on the roadmap
 
-### Backend
-
-- ASP.NET Core 10
-- C#
-- Entity Framework Core
-- SQL Server
-- REST APIs
-- JWT Authentication
-- AutoMapper
-- FluentValidation
-
-### Frontend
-
-- Angular 20
-- JavaScript
-- HTML5
-- CSS3
-- Bootstrap
-- Angular Material
-
-### Architecture
-
-- Clean Architecture
-- Repository Pattern
-- Dependency Injection
-- SOLID Principles
-
-### DevOps
-
-- Docker
-- Docker Compose
-- Git
-- GitHub
-
----
-
-# 🌟 Featured Projects
-
-## 🛍️ A.S Brand Store
-
-Production-ready E-Commerce platform built for a real business.
-
-**Tech**
-
-ASP.NET Core 10  • TypeScript • SQL Server • JWT • Clean Architecture • Docker
-
----
-
-## 👨‍💼 RecruitPro
-
-Enterprise Recruitment Management System.
-
-**Tech**
-
-ASP.NET Core 10 • Angular 20 • SQL Server • JWT • Docker • Clean Architecture
-
----
-
-## 🛒 CircuitBay
-
-Enterprise E-Commerce Backend API.
-
-**Tech**
-
-ASP.NET Core 10 • EF Core • SQL Server • Redis • Hangfire • Docker
-
----
-
-## 🏪 MarketPro
-
-Enterprise Point-of-Sale (POS) & Inventory Management System.
-
-**Tech**
-
-ASP.NET Core 10 • Angular 20 • SQL Server • Docker • JWT
-
----
-
-# 🛠 Currently Working On
-
-- Enterprise ASP.NET Core Applications
-- Angular 20
-- Performance Optimization
-- Software Architecture
-- Docker & Deployment
-
----
-
-# 📈 GitHub Stats
-
-<div align="center">
-
-![](https://github-readme-stats.vercel.app/api?username=Shaker-Emad1&show_icons=true&theme=tokyonight)
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=Shaker-Emad1&theme=tokyonight)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shaker-Emad1&layout=compact&theme=tokyonight)
-
-</div>
-
----
-
-# 📫 Connect With Me
-
-- GitHub: https://github.com/Shaker-Emad1
-- LinkedIn: **Add your LinkedIn profile**
-- Email: **Add your professional email**
-
----
-
-<div align="center">
-
-### "Code is not just about making software work. It's about building solutions that last."
-
-⭐ Thanks for visiting my profile!
-
-</div>
+_Last updated: November 26, 2026_
