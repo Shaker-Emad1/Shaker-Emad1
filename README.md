@@ -43,6 +43,13 @@ Enterprise-style systems with full backends (ASP.NET Core 10, EF Core, PostgreSQ
 | [edusuite](https://github.com/Shaker-Emad1/edusuite) | Multi-tenant school management — students, classes, gradebook, attendance, fees |
 | [estatepms](https://github.com/Shaker-Emad1/estatepms) | Multi-tenant property management — units, leases, rent invoicing with late tracking, maintenance |
 
+## More projects
+
+| Project | What it is |
+| --- | --- |
+| [fleetcore](https://github.com/Shaker-Emad1/fleetcore) | Multi-tenant fleet management API — vehicles, maintenance schedules, driver assignment, fuel logs |
+| [hotelpms](https://github.com/Shaker-Emad1/hotelpms) | Multi-tenant hotel PMS API — rooms, housekeeping pipeline, night-based reservations, folio with checkout gating |
+
 ## Working UI demos
 
 Live Angular 20 front-ends for the flagship systems, hosted on GitHub Pages. PharmaDesk and FlowBoard are wired to their hosted APIs (below) and work end-to-end; the rest are front-end previews whose backends run locally with `docker compose up` in each repo.
