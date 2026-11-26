@@ -34,7 +34,7 @@ Enterprise-style systems with full backends (ASP.NET Core 10, EF Core, PostgreSQ
 | [medicare-hms](https://github.com/Shaker-Emad1/medicare-hms) | Multi-tenant hospital & clinic management — patients, appointments, visits & prescriptions, billing |
 | [itdesk](https://github.com/Shaker-Emad1/itdesk) | Multi-tenant IT helpdesk — SLA-tracked tickets, assignment, comments, knowledge base |
 | [peoplesuite](https://github.com/Shaker-Emad1/peoplesuite) | Multi-tenant HR & payroll — employees, leave approvals, attendance, payroll runs |
-| [flowboard](https://github.com/Shaker-Emad1/flowboard) | Real-time team Kanban — SignalR live sync, drag-and-drop, multi-user boards |
+| [flowboard](https://github.com/Shaker-Emad1/flowboard) | Real-time team Kanban — SignalR live sync, drag-and-drop, board membership with owner/editor/viewer roles and invite links |
 | [payflow-api](https://github.com/Shaker-Emad1/payflow-api) | Payment processing API — idempotent payments, HMAC-signed webhooks, Hangfire jobs |
 | [ledger-service](https://github.com/Shaker-Emad1/ledger-service) | Double-entry bookkeeping API — balanced journals, transfers, financial-statement math |
 | [order-events](https://github.com/Shaker-Emad1/order-events) | Event-driven order processing — transactional outbox, RabbitMQ, idempotent consumer |
@@ -67,6 +67,8 @@ Static front-end demos of the flagship systems, served from the [showcase-sites]
 ## What the backend work shows
 
 - **Architecture:** multi-tenant SaaS with EF Core global query filters and JWT tenant claims; event-driven services with the transactional outbox; double-entry accounting invariants
+- **Security:** role-based authorization across the APIs (admin-managed accounts, JWT, BCrypt) and per-board membership with owner/editor/viewer roles in FlowBoard
+- **Containers:** every backend published as a public Docker image at [hub.docker.com/u/shaker200](https://hub.docker.com/u/shaker200), built by GitHub Actions on every push
 - **Data integrity:** transactional writes, idempotency keys, unique constraints, FEFO stock deduction, double-booking and overlap detection
 - **Delivery:** Docker one-liner in every repo, GitHub Actions CI, EF Core migrations, Swagger, MIT license, conventional commits
 - **Honesty:** every README separates what is built and working from what is on the roadmap
