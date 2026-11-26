@@ -32,8 +32,6 @@ Enterprise-style systems with full backends (ASP.NET Core 10, EF Core, PostgreSQ
 | [pharmadesk](https://github.com/Shaker-Emad1/pharmadesk) | Multi-tenant pharmacy management SaaS — batch/FEFO inventory, POS invoicing, low-stock & expiry reports |
 | [shoppos-cloud](https://github.com/Shaker-Emad1/shoppos-cloud) | Multi-tenant cloud point of sale — barcode POS, discounts, refunds, Z-report, sales analytics |
 | [medicare-hms](https://github.com/Shaker-Emad1/medicare-hms) | Multi-tenant hospital & clinic management — patients, appointments, visits & prescriptions, billing |
-| [suiteerp](https://github.com/Shaker-Emad1/suiteerp) | Multi-tenant ERP — warehouses & stock movements, sales orders, purchasing, AR/AP, payments |
-| [edusuite](https://github.com/Shaker-Emad1/edusuite) | Multi-tenant school management — students, classes, grades & report cards, attendance, fees |
 | [itdesk](https://github.com/Shaker-Emad1/itdesk) | Multi-tenant IT helpdesk — SLA-tracked tickets, assignment, comments, knowledge base |
 | [peoplesuite](https://github.com/Shaker-Emad1/peoplesuite) | Multi-tenant HR & payroll — employees, leave approvals, attendance, payroll runs |
 | [flowboard](https://github.com/Shaker-Emad1/flowboard) | Real-time team Kanban — SignalR live sync, drag-and-drop, multi-user boards |
