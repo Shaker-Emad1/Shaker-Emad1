@@ -52,6 +52,8 @@ Enterprise-style systems with full backends (ASP.NET Core 10, EF Core, PostgreSQ
 | [loyalty-engine](https://github.com/Shaker-Emad1/loyalty-engine) | Multi-tenant loyalty points API — earn rules, tier multipliers, redemption, full transaction audit trail |
 | [surveyforge](https://github.com/Shaker-Emad1/surveyforge) | Multi-tenant survey builder API — question lifecycle, anonymous public links, server-side result aggregation |
 | [assettrack](https://github.com/Shaker-Emad1/assettrack) | Multi-tenant IT asset tracking API — lifecycle, employee assignments, straight-line depreciation, warranty reports |
+| [recruitflow](https://github.com/Shaker-Emad1/recruitflow) | Multi-tenant applicant tracking API — guarded hiring pipeline, stage history, funnel and stale-candidate reports |
+| [fieldservice](https://github.com/Shaker-Emad1/fieldservice) | Multi-tenant field service API — skill-aware dispatch, work order lifecycle, parts and invoicing |
 
 ## Working UI demos
 
