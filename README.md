@@ -45,9 +45,19 @@ Enterprise-style systems with full backends (ASP.NET Core 10, EF Core, PostgreSQ
 
 ## Working UI demos
 
-Live Angular 20 front-ends for the flagship systems, hosted on GitHub Pages. Front-end previews: sign-in and live data need the backend, which runs locally with `docker compose up` in each repo.
+Live Angular 20 front-ends for the flagship systems, hosted on GitHub Pages. Front-end previews: sign-in and live data need the backend. Three backends are hosted live (see below); the rest run locally with `docker compose up` in each repo.
 
 [PharmaDesk](https://shaker-emad1.github.io/pharmadesk/) · [ShopPOS Cloud](https://shaker-emad1.github.io/shoppos-cloud/) · [Medicare HMS](https://shaker-emad1.github.io/medicare-hms/) · [ITDesk](https://shaker-emad1.github.io/itdesk/) · [PeopleSuite](https://shaker-emad1.github.io/peoplesuite/) · [SuiteERP](https://shaker-emad1.github.io/suiteerp/) · [EduSuite](https://shaker-emad1.github.io/edusuite/) · [EstatePMS](https://shaker-emad1.github.io/estatepms/) · [FlowBoard](https://shaker-emad1.github.io/flowboard/)
+
+## Live backend APIs
+
+Three backends are deployed and reachable, backed by managed PostgreSQL (Neon). Free-tier hosting: containers sleep after ~15 min idle, so the first request after a quiet period waits about a minute while the container wakes.
+
+| API | Base URL | Health |
+| --- | --- | --- |
+| PharmaDesk | https://pharmadesk-533a5.containers.snapdeploy.app | [/health/ready](https://pharmadesk-533a5.containers.snapdeploy.app/health/ready) |
+| FlowBoard | https://flowboard-533a5.containers.snapdeploy.app | [/health/ready](https://flowboard-533a5.containers.snapdeploy.app/health/ready) |
+| PayFlow | https://payflow-api-533a5.containers.snapdeploy.app | [/health/ready](https://payflow-api-533a5.containers.snapdeploy.app/health/ready) |
 
 ## Earlier projects
 
