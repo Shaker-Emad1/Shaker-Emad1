@@ -49,6 +49,9 @@ Enterprise-style systems with full backends (ASP.NET Core 10, EF Core, PostgreSQ
 | --- | --- |
 | [fleetcore](https://github.com/Shaker-Emad1/fleetcore) | Multi-tenant fleet management API — vehicles, maintenance schedules, driver assignment, fuel logs |
 | [hotelpms](https://github.com/Shaker-Emad1/hotelpms) | Multi-tenant hotel PMS API — rooms, housekeeping pipeline, night-based reservations, folio with checkout gating |
+| [loyalty-engine](https://github.com/Shaker-Emad1/loyalty-engine) | Multi-tenant loyalty points API — earn rules, tier multipliers, redemption, full transaction audit trail |
+| [surveyforge](https://github.com/Shaker-Emad1/surveyforge) | Multi-tenant survey builder API — question lifecycle, anonymous public links, server-side result aggregation |
+| [assettrack](https://github.com/Shaker-Emad1/assettrack) | Multi-tenant IT asset tracking API — lifecycle, employee assignments, straight-line depreciation, warranty reports |
 
 ## Working UI demos
 
