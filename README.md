@@ -39,6 +39,9 @@ Enterprise-style systems with full backends (ASP.NET Core 10, EF Core, PostgreSQ
 | [ledger-service](https://github.com/Shaker-Emad1/ledger-service) | Double-entry bookkeeping API — balanced journals, transfers, financial-statement math |
 | [order-events](https://github.com/Shaker-Emad1/order-events) | Event-driven order processing — transactional outbox, RabbitMQ, idempotent consumer |
 | [ai-ticket-triage](https://github.com/Shaker-Emad1/ai-ticket-triage) | AI support-ticket triage — LLM classification, priority, summaries, draft replies |
+| [suiteerp](https://github.com/Shaker-Emad1/suiteerp) | Multi-tenant ERP — warehouses, append-only stock ledger, purchasing, sales orders, invoicing |
+| [edusuite](https://github.com/Shaker-Emad1/edusuite) | Multi-tenant school management — students, classes, gradebook, attendance, fees |
+| [estatepms](https://github.com/Shaker-Emad1/estatepms) | Multi-tenant property management — units, leases, rent invoicing with late tracking, maintenance |
 
 ## Earlier projects
 
@@ -48,6 +51,12 @@ Enterprise-style systems with full backends (ASP.NET Core 10, EF Core, PostgreSQ
 | [market-pro](https://github.com/Shaker-Emad1/market-pro) | POS & inventory management — ASP.NET Core, Angular 20, EF Core, SQL Server, Docker |
 | [CircuitBay](https://github.com/Shaker-Emad1/CircuitBay) | E-commerce backend API — Clean Architecture, EF Core, SQL Server, Redis, Hangfire |
 | [ecommerce-Store](https://github.com/Shaker-Emad1/ecommerce-Store) | Full-stack e-commerce platform — ASP.NET Core, React, TypeScript, SQL Server, Docker |
+
+## Live demo sites
+
+Static front-end demos of the flagship systems, served from the [showcase-sites](https://github.com/Shaker-Emad1/showcase-sites) repo via GitHub Pages:
+
+[NilePay](https://shaker-emad1.github.io/showcase-sites/nilepay/) · [Medicare](https://shaker-emad1.github.io/showcase-sites/medicare/) · [PharmaCare](https://shaker-emad1.github.io/showcase-sites/pharmacare/) · [AqarGate](https://shaker-emad1.github.io/showcase-sites/aqargate/) · [EduHub](https://shaker-emad1.github.io/showcase-sites/eduhub/) · [SuiteERP](https://shaker-emad1.github.io/showcase-sites/suiteerp/) · [GovServ](https://shaker-emad1.github.io/showcase-sites/govserv/) · [CairoFreight](https://shaker-emad1.github.io/showcase-sites/cairofreight/) · [PixelForge](https://shaker-emad1.github.io/showcase-sites/pixelforge/)
 
 ## What the backend work shows
 
