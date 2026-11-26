@@ -6,7 +6,7 @@ Computer Science graduate (EELU, 2024), trained on .NET at DEPI and on AI at NTI
 
 [![Email](https://img.shields.io/badge/Email-anakerolos%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:anakerolos@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shaker--emad1-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaker-emad1)
-[![Portfolio](https://img.shields.io/badge/Portfolio-website-0d9488?logo=googlechrome&logoColor=white)](https://files.instinct.com/ljl3nnf00cem-shaker-emad-backend-net-developer)
+[![Portfolio](https://img.shields.io/badge/Portfolio-website-0d9488?logo=googlechrome&logoColor=white)](https://shaker-emad1.github.io)
 
 ## Tech stack
 
@@ -42,6 +42,12 @@ Enterprise-style systems with full backends (ASP.NET Core 10, EF Core, PostgreSQ
 | [suiteerp](https://github.com/Shaker-Emad1/suiteerp) | Multi-tenant ERP — warehouses, append-only stock ledger, purchasing, sales orders, invoicing |
 | [edusuite](https://github.com/Shaker-Emad1/edusuite) | Multi-tenant school management — students, classes, gradebook, attendance, fees |
 | [estatepms](https://github.com/Shaker-Emad1/estatepms) | Multi-tenant property management — units, leases, rent invoicing with late tracking, maintenance |
+
+## Working UI demos
+
+Live Angular 20 front-ends for the flagship systems, hosted on GitHub Pages. Front-end previews: sign-in and live data need the backend, which runs locally with `docker compose up` in each repo.
+
+[PharmaDesk](https://shaker-emad1.github.io/pharmadesk/) · [ShopPOS Cloud](https://shaker-emad1.github.io/shoppos-cloud/) · [Medicare HMS](https://shaker-emad1.github.io/medicare-hms/) · [ITDesk](https://shaker-emad1.github.io/itdesk/) · [PeopleSuite](https://shaker-emad1.github.io/peoplesuite/) · [SuiteERP](https://shaker-emad1.github.io/suiteerp/) · [EduSuite](https://shaker-emad1.github.io/edusuite/) · [EstatePMS](https://shaker-emad1.github.io/estatepms/) · [FlowBoard](https://shaker-emad1.github.io/flowboard/)
 
 ## Earlier projects
 
